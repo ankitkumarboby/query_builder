@@ -1,0 +1,56 @@
+body,html,section{
+    height: 100%;
+    width: 100%;
+}
+div{
+    margin:5px;
+}
+#main-container{
+    /* background-color: pink; */
+    width: 70%;
+    height: 80%;
+    margin: auto;
+}
+
+.arithmetic-condition{
+    
+}
+.arithmetic-condition .form-select{
+    display: inline-block;
+    width: fit-content;
+    max-width: 200px;
+}
+.arithmetic-condition input{
+    display: inline-block;
+    width: fit-content;
+    
+}
+#column-picker{
+    max-height: 200px;
+    min-height: 0%;
+}
+
+#order-column-list{
+    display: inline-block;
+    width: fit-content;
+}
+#order-value{
+    display: none;
+    width: fit-content;
+}
+#select-table-div select{
+    width: fit-content;
+    max-width: 150px;
+    display: inline-block;
+    margin: 5px;
+}
+#condition-type{
+    width: fit-content;
+    max-width: 200px;
+    display: block;
+    margin: 5px;
+}
+#condition-div div{
+    margin: 10px;
+    margin-left: 30px;
+}
